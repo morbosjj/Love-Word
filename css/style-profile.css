@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Century Gothic', sans-serif;
+}
+
+#editprof {
+	position: absolute;
+	color: white;
+	top: 90;
+	left: 230;
+}
+#upper {
+	text-transform: uppercase;
+}
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #EEEEEE;
+}
+
+header {
+	background-color: rgb(25,118,210);
+	border-bottom: 10px solid rgb(52,73,94);
+	height: 220px;
+	color: white;
+}
+header nav {
+	float: right;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+header nav a {
+	text-decoration: none;
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+}
+
+.profile-wrapper {
+	width: 90%;
+}
+
+.profile-wrapper h4 {
+	position: absolute;
+	left: 235;
+	top: 45;
+	font-size: 30px;
+	font-weight: bold;
+}
+.profile-wrapper p {
+	display: inline;
+	position: relative;
+	top: -20;
+	left: 15;
+	font-size: 15px;
+	padding: 5px;
+}
+
+
+.ratings {
+	width: 65%;
+}
+.ratings h5 {
+	display: inline;
+	padding: 20px;
+	position: relative;
+	top: 155;
+	font-size: 15px;
+	font-weight: normal;
+}
+.ratings h6 {
+	display: inline;
+	position: relative;
+	left: 68;
+	top: 130;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#up-form {
+  background: white;
+  position: absolute;
+  height: 5px;
+  left: 320;
+  top: 115;
+}
+#up-form p {
+	display: inline;
+	cursor: pointer;
+	position: absolute;
+	top: -25;
+	left: 5;
+}
+#contain-up {
+	display: none;
+}
+#contain-up input[type=submit]{
+	margin-top: 5px;
+	background: rgb(52,73,94);
+	border: 0;
+	padding: 10px;
+	color: white;
+	font-family: 'Arial',sans-serif;
+	font-weight: bold;
+}
+#contain-up input[type=file]{
+	border: 3px solid rgb(52,73,94);
+	padding: 5px;
+	color: black;
+	border: 0;
+}
+#contain-up span {
+	color: red;
+	font-weight: bold;
+}
+
+.profile-section img {
+	margin-top: 20px;
+	width: 150px;
+	border-radius: 200%;
+	height: 100px;
+	position: absolute;
+}
+.box-form {
+  position: absolute;
+  top: 235;
+  left: 360;
+  background-color: white;
+  width: 50%;
+  height: 100px;
+  color: black;
+  box-shadow: 1px 1px 3px black;
+}
+.box-form textarea {
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  border-bottom: 2px solid #EEE;
+  font-family: 'PT sans', sans-serif;
+}
+.box-form input[type=submit]{
+  float: right;
+  margin-right: 20px;
+  margin-top: 3px;
+  background-color: rgb(25,118,210);
+  width: 50px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#user-img {
+  position: absolute;
+
+}
+
+.nav2 {
+	text-align: left;
+	padding: 5px;
+	background-color: rgb(52,73,94);
+	height: 30px;
+	border-top: 3px solid white;
+}
+.nav2 a {
+	text-decoration: none;
+	color: white;
+}
+.nav2 h5{
+	display: inline;
+	padding: 30px;
+	font-size: 20px;
+}
+.nav2 h5 a:hover {
+	border-bottom: 7px solid #3C679D;	
+	position: relative;
+	top: 5;
+	transition: 0.4s;
+}
+.active{
+	transition: 0.4s;
+	border-bottom: 7px solid #3C679D;
+}
+.post {
+	position: relative;
+	top: -40;
+	margin-bottom: -50px;
+	left: 20;
+	background-color: white;
+	width: 50%;
+	height: 100px;
+	color: black;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 15px;
+}
+.body-post {
+	padding: 15px;
+	font-family: 'Roboto condensed', sans-serif;
+}
+#post-img img{
+	position: absolute;
+	top: 30;
+	left: 10;
+	border-radius: 200px;
+	width: 60px;
+	height: 50px;
+}
+#author {
+	position: relative;
+	left: 20;
+	top: 5;
+	font-weight: bold;
+}
+#body-post {
+	position: absolute;
+	top: 40;
+	left: 100;
+}

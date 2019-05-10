@@ -1,0 +1,5 @@
+#1D2731
+#0A1612
+#0F1626
+#E8E8E8
+echo "<span style='color:red;font-weight:bold;'>Date: </span>". date('F j, Y g:i:a  ');
